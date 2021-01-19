@@ -1,94 +1,138 @@
 html{
     font-family: 'Bebas Neue', cursive;
+    background-color: #222222;
+}
+body{
+    margin: 0;
 }
 header{
-    background-image: url(../image/brock-lesnar.jpg);
-    background-size: cover;
-    height: 800px;
-    color: #a58d4e;
+padding: 10px;
+    background-color: #222222;
+    color:#ffffff;
     font-size: 50px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+}
+#logo{
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
 }
+.content-header{
+    text-align: start;
+    width: 50%;
+}
+.logoCf{
+    margin: 0;
+    height: 350px;
+    width: 350px;
+    }
 
-ul{
+ul{ 
+    border-top: solid 2px #ffffff;
+    border-bottom: solid 2px #ffffff;
     display: flex;
     align-items: center;
     justify-content: space-around;
     list-style-type: none;
     margin: 0;
-    background-color: #a58d4e;
+    background-color: #222222;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
     height: 60px;
-    border-radius: 5px;
 }
 
 nav ul li a{
-    color: #000000;
+    color: #ffffff;
     text-decoration: none;
     font-size: 20px;
 }
 
 input{
-    background-color: #000000;
-    color: #a58d4e;
+    /* background-color: #000000; */
+    color: #222222;
     border-radius: 7px;
     padding: 5px;
     font-size: 18px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Bebas Neue', cursive;
+    
 }
 
 #home{
     margin: 10px;
     padding: 10px;
     text-align: center;
-    background-color: #a58d4e;
+    background-color: #fe0000;
     border-radius: 10px;
     font-size: 17px;
-    color: #000000;
+    color: #f2f2f2;
+    border : solid 2px #f2f2f2;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 
-img{
+#home2{
+    margin: 100px;
+    padding: 10px;
+    text-align: center;
+    background-color: #222222;
+    border-radius: 10px;
+    font-size: 17px;
+    color: #f2f2f2;
+    border : solid 2px #f2f2f2;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+}
+
+.image{
+    border: solid 2px #f2f2f2;
+    border-radius: 5px;
+    padding: 10px;
     margin-left: 225px;
     margin-top: 50px;
-    height: 500px;
-    width: 900px;
-    border-radius: 10px;
-}
-
-h2{
-    display: flex;
-    justify-content: center;
-    color: #ffffff;
-    background-color: #000000;
-    margin-right: 500px;
-    margin-left: 500px;
-    border-radius: 8px;
-    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    height: 200px;
+    width: 300px;
 }
 
 .red{
-    color: #B8202D;
+    color:  #B8202D;
 }
 
-.blue{
-    color: #006AC8;
-}
-
-.gris{
-    color: #686868;
+.white{
+    color: #f2f2f2;
 }
 
 .gold{
     color: #a58d4e;
 }
 
-.green{
-    color: #4AE371;
+.blue{
+    color: #0073b9;
+}
+
+.yellow{
+    color: #E5AA1B;
+}
+
+.orange{
+    color: #F8813F;
+}
+
+img{
+    margin-left: 225px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.lineContainer1{
+    display: flex;
+}
+.lineContainer2{
+    display: flex;
+}
+
+.paragraphe{
+    margin-left: 225px;
+    text-align: center;
+    font-size: 25px;
+    color: #f2f2f2;
 }
 
 .flexFooter{
@@ -96,13 +140,15 @@ h2{
     padding: 35px;
     align-items: center;
     justify-content: center;
-    background-color: #a58d4e;
+    background-color: #222222;
+    border-top: solid 2px #f2f2f2;
+    border-bottom: solid 2px #f2f2f2;
 }
 a:link{
     text-decoration: none;
 }
 a{
-    color: #000000;
+    color: #f2f2f2;
 }
 .icon{
     height: 50px;

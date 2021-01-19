@@ -1,0 +1,31 @@
+html{
+    font-family: 'Bebas Neue', cursive;
+}
+header{
+    background-image: url(../image/brodielee.jpeg);
+    background-size: cover;
+    height: 800px;
+    color: #7649BC;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    background-color: #7649BC;
+    height: 60px;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
