@@ -1,0 +1,74 @@
+html{
+    font-family: 'Bebas Neue', cursive;
+    background-color: #222222;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #f2f2f2;
+    padding: 10px;
+    font-size: 50px;
+}
+
+.content-header{
+    text-align: start;
+    width: 50%;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoCf{
+    margin: 0;
+    height: 350px;
+    width: 350px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    border-top: solid 2px #f2f2f2;
+    border-bottom: solid 2px #f2f2f2;
+    height: 60px;
+}
+
+nav ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+input{
+    color: #222222;
+    border-radius: 7px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#home{
+    text-align: center;
+    color: #f2f2f2;
+    font-size: 50px;
+    background-color: #fe0000;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid #f2f2f2 2px;
+}
+
+.gold{
+    color: #a58d4e;
+}
